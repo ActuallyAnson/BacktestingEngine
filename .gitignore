@@ -1,0 +1,33 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+backtester
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Data files (uncomment if you don't want to track data)
+# data/*.csv
+# data/*.json
+
+# OS specific
+.DS_Store
+Thumbs.db
