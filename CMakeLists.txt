@@ -30,7 +30,10 @@ add_library(backtester_portfolio
     src/portfolio/position.cpp
     src/portfolio/portfolio.cpp
 )
-add_library(backtester_strategies src/strategies/sma_crossover_strategy.cpp)
+add_library(backtester_strategies 
+    src/strategies/sma_crossover_strategy.cpp
+    src/strategies/rsi_strategy.cpp
+)
 
 # Main executable links to libraries (builds the final product)
 add_executable(backtester src/core/main.cpp)
